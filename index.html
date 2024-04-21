@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="content">
+                <div class="weather">
+                    <img src="images/cloud-raining-01.svg" alt="" class="weather-icon">
+                    <div class="title-subtext">
+                        <p class="city">New York</p>
+                        <h1 class="temp">22°c</h1>
+                    </div>
+                    <div class="details">
+                        <div class="col">
+                            <!-- <img src="images/cloud-raining-06.svg" alt=""> -->
+                            <div class="info">
+                                <p class="subtitle">Humidity</p>
+                                <p class="title humidity">50%</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <!-- <img src="images/wind-01.svg" alt=""> -->
+                            <div class="info">
+                                <p class="subtitle">Wind speed</p>
+                                <p class="title wind">15km/h</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="form">
+                        <input class="input" type="text" placeholder="Enter city name" spellcheck="false">
+                        <button class="button">Search</button>
+                </div>
+                <div class="error">
+                    <img src="images/alert-circle.svg" alt="">
+                    <p>Invalid city name</p>
+                </div>
+            </div>
+         </div> 
+    </div>
+</body>
+<script type="module" src="index.js"></script>
+<script type="module" src="config.js"></script>
+</html>
